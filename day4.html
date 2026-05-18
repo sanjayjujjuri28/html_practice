@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <h1>Complete HTML Form</h1>
+    <form action="/html" method="">
+    <fieldset>
+        <legend>Text Inputs</legend>
+      <label for="name" >Name:  </label>
+        <input type="text" id="name" placeholder="Enter your name"> 
+        <br><br>
+      <label for="email" >Email:  </label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <br><br>
+      <label for="pass" >Pmssword:  </label>
+        <input type="password" id="pass">
+        <br><br>
+      <label for="search" >Search: </label>
+        <input type="text" id="search" placeholder="Search here">   
+        <br><br>
+      <label for="phone">Phone: </label>
+         <input type="number" id="phone" placeholder="Phone number">
+        <br><br>
+      <label for="web">Website: </label>
+         <input type="number" id="web" placeholder="https://example.com"> 
+         <br><br>
+         <button>Submit</button>
+    </fieldset>
+    </form>
+    <br>
+    <form>
+    <fieldset>
+        <legend>Number Inputs</legend>
+        <label for="age" >Age: </label>
+            <input type="number" 
+                   min="18"
+                   max="60"
+                   id="age"
+           >
+        <br><br>
+        <label for="volume">Volume: </label>
+         <input type="range" id="volume">
+
+    </fieldset>
+    </form>
+    <br>
+    <fieldset>
+      <legend>Movies</legend>
+    <video controls
+           muted
+           loop
+           width="640">
+          <source src="Aakaasam-Nee-Haddhu-Ra-2020.mp4"
+                type="video/mp4"/>
+          <source >
+          </video>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Audios</legend>
+        <audio controls>
+          <source src="Nuvvunte-Chaley.mp3"
+          type="audio/mpeg" />
+        </audio>
+      </fieldset>
+      <br>
+      <fieldset>
+             <legend>Youtube Videos</legend>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/QTSKOghd7aw?si=78PxV_zw3VxmWaqa" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cdt5FMLNCnk?si=n6S-6rZm-Fg6UXs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </fieldset>
+      
+          
+</body>
+</html>
