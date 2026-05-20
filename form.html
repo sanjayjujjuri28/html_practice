@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        #idx1{
+            background-color: peachpuff;
+            text-align: center;
+        }
+        input{
+            border:none;
+            outline:none;
+            border-bottom: 1px solid;
+        }
+        fieldset {
+           border: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="idx1">Sports Physical Form</h2>
+    <fieldset>
+         <legend>Athlete Information</legend>
+         <ul>
+            <li>
+               <label for="iname">Name: </label>
+               <input type="text" id="iname" name="iname">
+            </li>
+            <br>
+             <li>
+               <label for="ischool">School/Team: </label>
+               <input type="text" id="ischool" name="ischool">
+            </li>
+            <br>
+              <li>
+               <label for="isport">Sport: </label>
+               <input type="text" id="isport" name="isport">
+            </li>
+            <br>
+              <li>
+               <label for="ipname">Parent/Guardian Name: </label>
+               <input type="text" id="ipname" name="ipname">
+            </li>
+            <br>
+              <li>
+               <label for="ic">Contact Number: </label>
+               <input type="numbers" maxlength="10" id="ic" name="ic">
+            </li>
+            <br>
+         </ul>
+    </fieldset>
+    <fieldset>
+    <legend>Medical History for Athletes</legend>
+       <ul>
+          <li>
+               <label for="concussions-yes">History of concussions: </label>
+               <input type="radio" id="concussions-yes" name="concussions" value="concussions-yes">
+               <label for="concussions-yes">yes</label>
+               <input type="radio" id="concussions-no" name="concussions" value="concussions-no">
+               <label for="concussions-no">no</label>
+            </li>
+            <br>
+              <li>
+               <label for="i2">Previous surgeries: </label>
+               <input type="text" id="i2" name="i2">
+            </li>
+            <br>
+              <li>
+               <label for="i3">Any bone fractures? </label>
+               <input type="text" id="i3" name="i3">
+            </li>
+            <br>
+              <li>
+               <label for="i4">Ashtma or breathing problems: </label>
+               <input type="radio" id="i4-yes" name="decision" value="i4-yes">
+                <label for="i4-yes">yes</label>
+                <input type="radio" id="i4-no" name="decision" value="i4-no">
+                <label for="i4-no">no</label>
+            </li>
+            <br>
+       </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Fitness Assessment</legend>
+        <table border="black" as>
+            <thead>
+                <tr>
+                    <td>Category</td>
+                    <td>Pass</td>
+                    <td>Fail</td>
+                    <td>Comments</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cardiovascular</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Flexibility</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Strength</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>endurance</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</body>
+</html>
